@@ -1,0 +1,42 @@
+/* Styles for Starter*/
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+    /* universal box sizing adjustments^ */
+
+img {
+    max-width: 100%;
+    min-height:
+}
+
+h1 {
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 72pt
+}
+h2{
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30pt
+}
+h3{
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20pt
+}
+ul{
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 20pt
+}
+p{
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20pt
+}
