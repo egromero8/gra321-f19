@@ -33,8 +33,9 @@ h2{
     font-family: source-sans-pro, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 20pt;
-    margin: none;
+    font-size: 6vw;
+    margin: 0;
+    margin-bottom: 8vw;
     padding: 0;
 }
 
@@ -60,6 +61,7 @@ h4{
     font-weight: 300;
     font-style: normal;
     font-size: 20pt;
+    margin:0rem;
 }
 
 li {
@@ -68,7 +70,7 @@ li {
   grid-template-areas: 
     "product . s m l";
   grid-template-columns: 2fr 1fr 1fr 1fr;
-  padding: 2rem;
+  padding: 0rem;
   width: 100%;
 }
 
@@ -84,15 +86,19 @@ li {
 }
 .small {
   grid-area: s;
+  margin:0rem;
 }
 .medium {
   grid-area: m;
+  margin: 0rem;
 }
 .large {
   grid-area: l;
+  margin: 0rem;
 }
 ul {
   width: 100%;
+  margin: 2rem;
 }
 
 
