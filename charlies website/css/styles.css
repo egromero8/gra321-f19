@@ -14,26 +14,183 @@ h1 {
     font-family: source-sans-pro, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 72pt
+    font-size: 50pt;
+    color: #fff;
+    
+    background-color: #D9D7D5;
+    background-image: url(../IMG/hand-table-coffee-shop-coffee-people-tea-1057303-pxhere.com.jpg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+    display: flex;
+    
+    padding-top: 20rem;  
+    padding-left: 5rem; 
+    margin: 0;
 }
+
 h2{
     font-family: source-sans-pro, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 30pt
+    font-size: 20pt;
+    margin: none;
+    padding: 0;
 }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+}
+
 h3{
     font-family: source-sans-pro, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 20pt
+    font-size: 20pt;
+    
+    padding-left: 2rem;
+    text-decoration: underline;
+
 }
-ul{
+
+h4{
     font-family: source-sans-pro, sans-serif;
     font-weight: 300;
-    font-style: normal; 
-    font-size: 20pt
+    font-style: normal;
+    font-size: 20pt;
 }
+
+li {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-areas: 
+    "product . s m l";
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  padding: 2rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 680px) {
+  li {
+    grid-template-areas:
+      "product s m l";
+  }
+}
+
+.product {
+  grid-area: product;
+}
+.small {
+  grid-area: s;
+}
+.medium {
+  grid-area: m;
+}
+.large {
+  grid-area: l;
+}
+ul {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.row{
+    display:grid;
+    grid-template-columns: 475px 100px 100px 100px;
+    padding: 0px;
+}
+
+.grid-item{
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20pt;
+        
+    padding-left: 2rem;
+}
+
+.coffee{
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30pt;
+    text-align: center;
+    
+    min-height: 15px;
+    min-width: 15px;
+    
+    padding-top: 5rem;
+        
+}
+
+.tea{
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30pt;
+    text-align: center;
+    
+    min-height: 15px;
+    min-width: 15px;
+    
+    padding-top: 5rem;
+}
+
+.drinks{
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30pt;
+    text-align: center;
+    
+    min-height: 15px;
+    min-width: 15px;
+    
+    padding-top: 5rem;
+}
+
+.Panninis{
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30pt;
+    text-align: center;
+    
+    min-height: 15px;
+    min-width: 15px;
+}
+
+.meals{
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30pt;
+    text-align: center;
+    
+    min-height: 15px;
+    min-width: 15px;
+}
+
+.Food{
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30pt;
+    text-align: center;
+    
+    min-height: 15px;
+    min-width: 15px;
+}
+
 p{
     font-family: source-sans-pro, sans-serif;
     font-weight: 300;
