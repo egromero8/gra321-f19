@@ -45,85 +45,6 @@ h2{
   grid-auto-rows: minmax(100px, auto);
 }
 
-h3{
-    font-family: source-sans-pro, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 20pt;
-    
-    padding-left: 2rem;
-    text-decoration: underline;
-
-}
-
-h4{
-    font-family: source-sans-pro, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 20pt;
-    margin:0rem;
-}
-
-li {
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-areas: 
-    "product . s m l";
-  grid-template-columns: 2fr 1fr 1fr 1fr;
-  padding: 0rem;
-  width: 100%;
-}
-
-@media screen and (min-width: 680px) {
-  li {
-    grid-template-areas:
-      "product s m l";
-  }
-}
-
-.product {
-  grid-area: product;
-}
-.small {
-  grid-area: s;
-  margin:0rem;
-}
-.medium {
-  grid-area: m;
-  margin: 0rem;
-}
-.large {
-  grid-area: l;
-  margin: 0rem;
-}
-ul {
-  width: 100%;
-  margin: 2rem;
-}
-
-
-
-
-
-
-
-
-
-.row{
-    display:grid;
-    grid-template-columns: 475px 100px 100px 100px;
-    padding: 0px;
-}
-
-.grid-item{
-    font-family: source-sans-pro, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 20pt;
-        
-    padding-left: 2rem;
-}
-
 .coffee{
     font-family: source-sans-pro, sans-serif;
     font-weight: 600;
@@ -196,6 +117,82 @@ ul {
     min-height: 15px;
     min-width: 15px;
 }
+
+h3{
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20pt;
+    
+    padding-left: 2rem;
+    text-decoration: underline;
+
+}
+
+h4{
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20pt;
+    margin:0rem;
+}
+
+li {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-areas: 
+    "product . s m l";
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  padding: 0rem;
+  width: 100%;
+}
+
+.product {
+  grid-area: product;
+}
+
+.small {
+  grid-area: s;
+  margin:0rem;
+}
+
+.medium {
+  grid-area: m;
+  margin: 0rem;
+}
+
+.large {
+  grid-area: l;
+  margin: 0rem;
+}
+
+ul {
+  width: 100%;
+  margin: 2rem;
+}
+
+
+@media screen and (min-width: 680px) {
+  li {
+    grid-template-areas:
+      "product s m l";
+  }
+}
+
+
+.info{
+    
+    
+    
+}
+
+
+
+
+
+
+
+
 
 p{
     font-family: source-sans-pro, sans-serif;
